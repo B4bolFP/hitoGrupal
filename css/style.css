@@ -44,16 +44,37 @@ body {
     color: black;
   }
 
-  .inf-container {
+  .inf-container-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     -webkit-box-shadow: 5px 6px 50px 4px #d64c7f; 
     box-shadow: 5px 6px 50px 4px #d64c7f;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 2rem;
     width: 55%;
     height: 45rem;
     margin: 2.3rem auto;
-    background-color: #ddd;
+    
+  }
+
+  .inf-container {
+    height: 90%;
+    width: 90%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .inf-title {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .inf-text {
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
   }
