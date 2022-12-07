@@ -57,7 +57,7 @@ body {
     width: 55%;
     height: 45rem;
     margin: 2.3rem auto;
-    
+    overflow: auto;
   }
 
   .inf-container {
