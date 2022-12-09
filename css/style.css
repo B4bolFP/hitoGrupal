@@ -87,8 +87,10 @@ body {
     width: 100%;
     height: auto;
   }
-
-
+  #scss img{
+    width: 50rem;
+    height: auto;
+  }
   table {
     border-collapse: collapse;
     width: 100%;
